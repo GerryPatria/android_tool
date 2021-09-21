@@ -1,17 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SecondFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Second Tab"
-        android:textStyle="italic"
-        />
+    <!-- Start Account ID-->
 
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="238dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_email_24_login"
+        android:ems="10"
+        android:hint=" Your -Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="238dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_baseline_login"
+        android:ems="10"
+        android:hint=" Your Password"
+        android:inputType="textPassword"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <Button
+        android:layout_width="244dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="220dp"
+        android:outlineAmbientShadowColor="@color/teal_200"
+        android:state_enabled="true"
+        android:text="LOGIN AREA"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
 </FrameLayout>

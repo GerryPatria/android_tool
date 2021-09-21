@@ -22,12 +22,16 @@ public class FragmentAdapter extends FragmentStateAdapter {
                 return new SecondFragment();
             case 2 :
                 return new ThridFragment();
+            case 3 :
+                return new InfoFragment();
+            case 4 :
+                return new StatusFragment();
         }
         return new FirstFragment();
     }
 
     @Override
     public int getItemCount() {
-        return 3;
+        return 5;
     }
 }

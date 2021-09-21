@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
         //TabLayout Add here if more Tab
         //Need generate More JavaFragment. (ATTENTION!)
         tabLayout.addTab(tabLayout.newTab().setText("Play"));
-        tabLayout.addTab(tabLayout.newTab().setText("Tool"));
         tabLayout.addTab(tabLayout.newTab().setText("Acc"));
-        //tabLayout.addTab(tabLayout.newTab().setText("Stat"));
-        //tabLayout.addTab(tabLayout.newTab().setText("Info"));
+        tabLayout.addTab(tabLayout.newTab().setText("Tool"));
+        tabLayout.addTab(tabLayout.newTab().setText("Info"));
+        tabLayout.addTab(tabLayout.newTab().setText("Stat"));
 
 
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
