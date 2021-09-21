@@ -28,11 +28,11 @@
             android:layout_height="40dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="100dp"
+            android:drawableStart="@drawable/ic_baseline_email_24_login"
             android:background="@drawable/custom_input"
-            android:drawableStart="@drawable/ic_baseline_login"
             android:ems="10"
-            android:hint=" Your Password"
-            android:inputType="textPassword"
+            android:hint=" Your E-Mail"
+            android:inputType="textEmailAddress"
             android:paddingStart="12dp"
             android:paddingEnd="12dp" />
 
@@ -56,10 +56,10 @@
             android:layout_marginRight="100dp"
 
             android:background="@drawable/custom_input"
-            android:drawableStart="@drawable/ic_baseline_email_24_login"
+            android:drawableStart="@drawable/ic_baseline_login"
             android:ems="10"
-            android:hint=" Your -Email"
-            android:inputType="textEmailAddress"
+            android:hint=" Your Password"
+            android:inputType="textPassword"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
             android:textStyle="italic" />
@@ -80,7 +80,7 @@
             android:layout_width="390dp"
             android:layout_height="50dp"
             android:layout_marginLeft="10dp"
-            android:drawableStart="@drawable/ic_baseline_login_24_acc"
+            android:src="@drawable/ic_baseline_login_24_acc"
             android:text="LOGIN AREA"
             android:textStyle="bold" />
 

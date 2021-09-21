@@ -5,15 +5,13 @@
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+        <!-- Start Ui Here -->
 
-
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyle"
-        android:layout_width="72dp"
-        android:layout_height="70dp"
-        android:layout_marginLeft="160dp"
-        android:layout_marginTop="200dp" />
+    </LinearLayout>
 
 </FrameLayout>
