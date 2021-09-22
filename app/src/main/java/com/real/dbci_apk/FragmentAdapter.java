@@ -19,7 +19,7 @@ public class FragmentAdapter extends FragmentStateAdapter {
         switch (position)
         {
             case 1 :
-                return new SecondFragment();
+                return new FirstFragment();
             case 2 :
                 return new ThridFragment();
             case 3 :
@@ -27,7 +27,7 @@ public class FragmentAdapter extends FragmentStateAdapter {
             case 4 :
                 return new StatusFragment();
         }
-        return new FirstFragment();
+        return new SecondFragment();
     }
 
     @Override
