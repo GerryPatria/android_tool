@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstFragment">
+    tools:context=".SecondFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="50dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="#333131"
+        android:visibility="visible"
+        tools:visibility="visible">
 
         <TextView
             android:layout_width="wrap_content"
@@ -43,7 +46,6 @@
             android:layout_marginLeft="310dp"
             android:layout_marginTop="-40dp"
             android:layout_marginRight="100dp"
-            android:background="@drawable/custom_input"
             android:text="SAVE"
             android:textStyle="bold" />
 
@@ -71,27 +73,33 @@
             android:layout_marginLeft="310dp"
             android:layout_marginTop="-40dp"
             android:layout_marginRight="100dp"
-            android:background="@drawable/custom_input"
             android:text="SAVE"
             android:textStyle="bold" />
 
 
         <Button
+            android:id="@+id/loginArea"
             android:layout_width="390dp"
-            android:layout_height="50dp"
+            android:layout_height="55dp"
             android:layout_marginLeft="10dp"
-            android:src="@drawable/ic_baseline_login_24_acc"
+            android:drawableLeft="@drawable/ic_baseline_login_24_acc"
             android:text="LOGIN AREA"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:drawableTint="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
 
         <!-- Start Connect-->
         <Button
             android:layout_width="190dp"
             android:layout_height="50dp"
             android:layout_marginLeft="10dp"
-            android:drawableStart="@drawable/ic_baseline_login_24_acc"
+            android:drawableLeft="@drawable/ic_baseline_account_box_24"
             android:text="CREATE ACCOUNT"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textSize="12sp"/>
 
         <!--- Create Deposite -->
         <Button
@@ -99,7 +107,8 @@
             android:layout_height="50dp"
             android:layout_marginLeft="210dp"
             android:layout_marginTop="-51dp"
-            android:drawableStart="@drawable/ic_baseline_login_24_acc"
+            android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+            android:textSize="11sp"
             android:text="GET DEPOSITE HERE"
             android:textStyle="bold" />
 
@@ -110,7 +119,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="15dp"
             android:shadowColor="@android:color/black"
-            android:text="GET DEPOSITE :"
+            android:text="GET DEPOSIT :"
             android:textColor="@android:color/black"
             android:textStyle="bold" />
 
@@ -123,7 +132,7 @@
             android:background="@drawable/custom_input"
             android:drawableStart="@drawable/ic_baseline_login"
             android:ems="10"
-            android:hint=" Login to Deposite Address"
+            android:hint=" Enter Your Deposit Address"
             android:inputType="textEmailAddress"
             android:paddingStart="12dp"
             android:paddingEnd="12dp" />
@@ -166,7 +175,8 @@
             android:layout_width="190dp"
             android:layout_height="50dp"
             android:layout_marginLeft="10dp"
-            android:drawableStart="@drawable/ic_baseline_login_24_acc"
+            android:drawableLeft="@drawable/ic_baseline_payments_24"
+            android:paddingEnd="12dp"
             android:text="WITHDRAW"
             android:textStyle="bold" />
 
@@ -176,7 +186,8 @@
             android:layout_marginLeft="210dp"
             android:layout_marginTop="-51dp"
             android:layout_marginRight="100dp"
-            android:drawableStart="@drawable/ic_baseline_login_24_acc"
+            android:drawableLeft="@drawable/ic_baseline_payment_24"
+            android:paddingEnd="12dp"
             android:text="WITHDRAW ALL"
             android:textStyle="bold" />
 
