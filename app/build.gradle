@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.real.dbci_apk"
-        minSdk 30
+        minSdk 16
         targetSdk 31
         versionCode 1
         versionName "1.0"
