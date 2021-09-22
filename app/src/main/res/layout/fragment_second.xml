@@ -12,8 +12,7 @@
         android:layout_marginTop="50dp"
         android:orientation="vertical"
         android:background="#333131"
-        android:visibility="visible"
-        tools:visibility="visible">
+        android:visibility="visible">
 
         <TextView
             android:layout_width="wrap_content"
@@ -31,8 +30,8 @@
             android:layout_height="40dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="100dp"
-            android:drawableStart="@drawable/ic_baseline_email_24_login"
             android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_baseline_email_24_login"
             android:ems="10"
             android:hint=" Your E-Mail"
             android:inputType="textEmailAddress"
