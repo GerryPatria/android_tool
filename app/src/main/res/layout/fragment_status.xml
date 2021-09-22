@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="50dp"
+        android:background="#333131"
         android:orientation="vertical">
         <!-- Start Ui Here -->
 
@@ -17,9 +18,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="Win Streak :"
-            android:textStyle="italic"
+            android:textColor="@android:color/black"
             android:textSize="20dp"
-            android:textColor="@android:color/black" />
+            android:textStyle="italic" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,9 +28,9 @@
             android:layout_marginLeft="120dp"
             android:layout_marginTop="-25dp"
             android:text="910"
-            android:textStyle="italic"
+            android:textColor="#4CAF50"
             android:textSize="20dp"
-            android:textColor="#4CAF50"/>
+            android:textStyle="italic" />
 
         <!--Lose Streak-->
         <TextView
@@ -38,9 +39,9 @@
             android:layout_marginLeft="200dp"
             android:layout_marginTop="-28dp"
             android:text="Lose Streak :"
-            android:textStyle="italic"
+            android:textColor="@android:color/black"
             android:textSize="20dp"
-            android:textColor="@android:color/black" />
+            android:textStyle="italic" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -48,9 +49,9 @@
             android:layout_marginLeft="320dp"
             android:layout_marginTop="-26dp"
             android:text="10"
-            android:textStyle="italic"
+            android:textColor="#EF2112"
             android:textSize="20dp"
-            android:textColor="#EF2112" />
+            android:textStyle="italic" />
 
         <View
             android:id="@+id/divider"
@@ -66,10 +67,10 @@
             android:layout_marginLeft="140dp"
             android:layout_marginTop="30dp"
             android:text="NOW BTC"
-            android:textStyle="italic"
-            android:textSize="20dp"
             android:textAlignment="center"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="italic" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -77,10 +78,10 @@
             android:layout_marginLeft="140dp"
             android:layout_marginTop="5dp"
             android:text="TOTAL BTC"
-            android:textStyle="italic"
-            android:textSize="20dp"
             android:textAlignment="center"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="italic" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -88,10 +89,10 @@
             android:layout_marginLeft="140dp"
             android:layout_marginTop="50dp"
             android:text="NOW DOGE"
-            android:textStyle="italic"
-            android:textSize="20dp"
             android:textAlignment="center"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="italic" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -99,10 +100,10 @@
             android:layout_marginLeft="140dp"
             android:layout_marginTop="5dp"
             android:text="TOTAL DOGE"
-            android:textStyle="italic"
-            android:textSize="20dp"
             android:textAlignment="center"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="italic" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -110,10 +111,10 @@
             android:layout_marginLeft="140dp"
             android:layout_marginTop="50dp"
             android:text="NOW LTC"
-            android:textStyle="italic"
-            android:textSize="20dp"
             android:textAlignment="center"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="italic" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -121,10 +122,10 @@
             android:layout_marginLeft="140dp"
             android:layout_marginTop="5dp"
             android:text="TOTAL LTC"
-            android:textStyle="italic"
-            android:textSize="20dp"
             android:textAlignment="center"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="italic" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -132,10 +133,10 @@
             android:layout_marginLeft="140dp"
             android:layout_marginTop="50dp"
             android:text="NOW ETH"
-            android:textStyle="italic"
-            android:textSize="20dp"
             android:textAlignment="center"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="italic" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -143,10 +144,10 @@
             android:layout_marginLeft="140dp"
             android:layout_marginTop="5dp"
             android:text="TOTAL ETH"
-            android:textStyle="italic"
-            android:textSize="20dp"
             android:textAlignment="center"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="italic" />
 
         <View
             android:id="@+id/divider1"
@@ -160,7 +161,7 @@
             android:layout_height="70dp"
             android:layout_marginLeft="100dp"
             android:text="TRADE HISTORY"
-            android:textSize="20dp"/>
+            android:textSize="20dp" />
 
 
     </LinearLayout>
