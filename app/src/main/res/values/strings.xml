@@ -2,4 +2,11 @@
     <string name="app_name">DBCI Trade</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="doge_array">
+    <item>BTC</item>
+    <item>Doge</item>
+    <item>LTC</item>
+    <item>ETH</item>
+    </string-array>
 </resources>
