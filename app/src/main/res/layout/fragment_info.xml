@@ -49,22 +49,6 @@
             app:layout_constraintEnd_toStartOf="@+id/imageView5"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-        <EditText
-            android:id="@+id/clipBTC"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:backgroundTint="#423F3F"
-            android:ems="10"
-            android:inputType="text"
-            android:minHeight="48dp"
-            android:text="BTC"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView" />
-
         <MultiAutoCompleteTextView
             android:id="@+id/multiAutoCompleteTextView"
             android:layout_width="249dp"
@@ -132,6 +116,23 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/clipBTC" />
+
+        <EditText
+            android:id="@+id/clipBTC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#423F3F"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="BTC"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView" />
 
         <ImageView
             android:id="@+id/imageView5"

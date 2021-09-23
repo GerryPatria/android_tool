@@ -9,4 +9,11 @@
     <item>LTC</item>
     <item>ETH</item>
     </string-array>
+    <string-array name="hilo_array">
+        <item>Trade Lo</item>
+        <item>Trade Hi</item>
+        <item>Hi/Lo</item>
+        <item>Random</item>
+        <item>30/70</item>
+    </string-array>
 </resources>
